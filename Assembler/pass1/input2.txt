@@ -1,0 +1,20 @@
+        START 200
+        MOVER AREG ='3'
+        MOVEM AREG A
+LOOP    MOVER AREG A
+        MOVER CREG B
+        ADD CREG ='1'
+        MOVER AREG A
+        MOVER CREG B
+        MOVER AREG A
+        MOVER CREG B
+        MOVER AREG A
+        BC ANY NEXT
+        LTORG
+        MOVER AREG A
+NEXT    SUB AREG ='4'
+LAST    STOP
+        MULT CREG B
+A       DS 1
+B       DS 1
+        END

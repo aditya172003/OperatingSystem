@@ -1,0 +1,4 @@
+MOVER ( p ,2 ) ,( p ,0 ) ,
+ADD ( p ,2 ) ,( p ,1 ) ,
+MOVEM ( p ,2 ) ,( p ,0 ) ,
+MEND

@@ -1,0 +1,4 @@
+-----------PNTAB FOR INCR MACRO ---------------
+0 , MEM_VAL
+1 , INCR_VAL
+2 , REG
